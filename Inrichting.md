@@ -51,6 +51,12 @@ Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname
 
 De component Terugmelding heeft als doel dat meldingen van afnemers over de juistheid van gegevens geregistreerd kunnen worden en beschikbaar zijn voor bronhouders, zodat zij ze kunnen behandelen
 
+    Opmerking Lennart: 
+    Registreren lijkt ontkoppelt van ontsluiten/verstrekken. Ik denk dat dit "oud" denken is. Als je de keten kantelt, en data-gedreven werkt, dan is er "maar 1 database", waar alle processen in samenhang op werken. De inwinnende partij is verantwoordelijk voor de correctheid van de data, die verstrekt wordt - en wordt geacht zelf die data op orde te maken. Dan ligt de correctheid van de data ook bij de juiste partij, de partij met kennis, en die partij is zich bewust/sensitief van hoe de data gebruikt wordt. Kortom: inwinnen voor gebruik. Nou kan je best er een aparte (real-time replica t.b.v. load-spreiding) database van maken, maar niet een apart informatiemodel. De informatie moet in de keten gelijk zijn, met dezelfde betekenis en ontsloten zodra dit kan. Ook mbt wanneer dit kan, beschikt alleen de inwinnende partij (over het algemeen) over de juiste kennis om dit in te schatten/te bepalen.
+    
+    Ik doel hier met informatiemodel overigens nadrukkelijk niet op informatieproducten, noch op informatie op maat. Deze laatste onderwerpen zitten in een verlengstuk op de bron. Ik heb het uitdrukkelijk over de data in de bron en 1 op 1 afname vanuit deze bron via de algemene data-services. Zeg maar, de informatie waarmee de informatieproducten het moeten doen. Immers, alleen deze informatie uit de bron is er, er is verder niks (ook al wil je meer, er is niet meer, ook al wil je informatie met een andere betekenis, die is er niet, want het is niet zo ingewonnen).
+
+
 ### Functies in de laag Ondersteuning
 
 Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers:
