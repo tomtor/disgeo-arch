@@ -20,6 +20,32 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
 **Vanuit Beleidsvisie Samenhangende Objectenregistratie**
  6. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
  7. In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan.
+ 
+  Opmerking Lennart:
+ 
+  Hier lijkt te staan, althans zo lees ik het: vastleggen en opvragen zit in een aparte database. Dat is althans ooit een principe geweest: scheiding tussen registreren en verstrekken. Maar die scheiding leidde ertoe dat er aparte datamodellen ontstonden voor inwinnen en aparte voor opvragen/verstrekken. Met issues/uitval, vertalingen en actualiteit verschillen tot gevolg. Ik vermoed dat de intentie is: inwinnen kent een eigen dynamiek (veel controles, in stappen inwinnen), die anders is dan de dynamiek bij verstrekken (informatie op maat/informatie producten, gehele objecten uitleveren).
+
+  De uitdaging is volgens mij tweeledig:
+
+  Hoe win je in, in samenhang
+  Hoe verstrek je, over basisregistraties heen, actueel, zonder dat de gebruiker hier inconsistenties ervaart.
+  Bij deze uitdaging hoort volgens mij een andere principe, of in ieder geval een andere formulering:
+
+  Principe: inwinnen voor gebruik.
+  Bijvoorbeeld: de inwinnende partij is verantwoordelijk voor de informatie die verstrekt wordt en wint in met kennis en kunde van de informatiebehoefte in het verstrekkingen proces.
+
+  Bijvoorbeeld: er is een database conform het informatiemodel, en de inwinnende partij vult die database zodra dit kan. Dit is dan direct actueel, de inwinnende partij ervaart zelf of de informatie die ze inwinnen bruikbaar is, en er is geen transformatiestap meer nodig en dus geen kans op uitval.
+
+  Natuurlijk is het zo dat de inwinnende partij ook extra informatie wilt bijhouden en dat mag en kan, maar ten minste een onderdeel van de architectuur oplossing zou moeten zijn dat de inwinnende partij de data in de database voor verstrekken op orde heeft/maakt, een database van waaruit direct geleverd zou kunnen worden - landelijk verzamelt in een LV, waar hetzelfde informatiemodel staat.
+
+  Kortom: processen wil je scheiden, maar de informatie in beide processen moet juist niet gescheiden zijn maar gelijk.
+
+  Andere formulering:
+  In het ontwerp van een samenhangende objectenregistratie is er op procesniveau sprake van een nadrukkelijke scheiding tussen de inwinningsprocessen en de functionaliteit voor het bewerken, opvragen en presenteren daarvan, maar op het informatie/dataniveau is juist geen scheiding. Op data niveau is er sprake van dezelfde definities, uniformiteit en actualiteit.
+
+ In 4.2 figuur 6 en 5.2.3.1 Afgeleide opslag komt dit ook weer terug. Zie opmerkingen aldaar. 
+
+ 
  8. Er wordt gebruik gemaakt van standaard infrastructurele voorzieningen die beschikbaar zijn bij de bronhouders en de gebruikers (denk hierbij aan standaardnetwerken, netwerkprotocollen en beveiligingsmechanismen).
  9. Er wordt in de eindsituatie zoveel mogelijk uitgegaan van ‘bevragen bij de bron’. Hierbij is van belang dat de gebruiker voor verstrekkingen zoveel mogelijk uit kan gaan van één loket. Een belangrijk aandachtspunt hierbij is het gebeurtenis georiënteerd werken (nader uit te werken). Of de bronhouders gedistribueerd en decentraal werken of direct inwinning en bijhouding in een (of meerdere) voorziening(en) uitvoeren via gestandaardiseerde services moet nader bepaald worden (nadere uitwerking in kader van DiS GEO/beleidsvisie: leveranciers, bronhouders, Kadaster, VNG-R, Ministerie van BZK).
  10. Keuzen voor een technische inrichting van de registratie worden pas later in het traject gemaakt, zodat oplossingen gebaseerd zijn op recente inzichten in oplossingsmogelijkheden.
