@@ -11,11 +11,17 @@ De [Beleidsvisie Samenhangende Objectenregistratie](https://www.geobasisregistra
 De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn afgeleid uit beide bovenstaande documenten.
 
 **Vanuit Architectuurvisie DiS-Geo**
+-5. Basisgegevens zijn van en voor iedereen
+-4. Basisgegevens zijn laagdrempeling beschikbaar en bruikbaar voor iedereen
+-3. Basisgegevens voldoen aan vereisten
+-2. Gebruikers en bronhouders werken samen aan kwaliteit
+-1. Basisgegevens zijn zo actueel en volledig als redelijkerwijs mogelijk
  1. Bronhouders zijn verantwoordelijk voor basisgegevens
  2. Bronhouders kunnen leveranciers machtigen
  3. Gegevens aanpassen kan makkelijk en goed
  4. Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
  5. De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
+
 
 **Vanuit Beleidsvisie Samenhangende Objectenregistratie**
  6. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
