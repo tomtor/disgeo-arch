@@ -17,6 +17,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
  4. Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
  5. De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
 
+
 **Vanuit Beleidsvisie Samenhangende Objectenregistratie**
  6. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
  7. In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan.
