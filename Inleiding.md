@@ -11,12 +11,6 @@ Dit document is de **Architectuurbeschrijving Voorzieningen** van de Samenhangen
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
 </figure>
 
-<p style="color:blue">
-Opm Piet. Het document geeft behalve een opdeling in componenten maar heel weinig richting. Alles blijft heel globaal en nog weinig specifiek.
-Het is natuurlijk de vraag of het nodig is om heel specifiek te worden. Dat is wellicht niet nodig mits de uitvoering in handen wordt gegeven van een organisatie die reeds meerdere BR’s met alle bijbehorende functionaliteit heeft gebouwd en deze beheert. In principe zou de BR SOR ingebouwd moeten worden in een bestaande omgeving om te voorkomen dat helemaal opnieuw wordt begonnen met allerlei voorzieningen die al lang bestaan.
-Uitbesteding van bouw op basis van voorliggend document leidt hoogstwaarschijnlijk tot hoge kosten en veel rework achteraf.
-</p>
-
 ### Doel en doelgroep
 
 Deze architectuurbeschrijving moet het mogelijk maken om  keuzes te maken voor de verdere inrichting van de ICT-voorzieningen (componenten, applicaties of systemen) voor de Samenhangende Objectenregistratie. Ook moet de architectuurbeschrijving het mogelijk maken om de transitiestrategie te bepalen voor de overgang van de huidige voorzieningen van o.a. de BAG, BGT en BRT naar de ICT-componenten voor de Objectenregistratie. Tot slot moet de architectuurbeschrijving het mogelijk maken om de technische en organisatorische inrichting voor de ICT-voorzieningen voor de Objectenregistratie te bepalen. 
