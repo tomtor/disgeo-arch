@@ -281,25 +281,25 @@ met andere woorden een intern gerichte functie. We beschrijven daarom hier
 vooral de vereisten aan de afgeleide opslag waar de invulling ervan aan moet
 voldoen. 
 
-	<p style="color:blue">
-    Opmerking Lennart: 
+<p style="color:blue">
+Opmerking Lennart: 
 
-	MEt afgeleide opslag hoort mijn inziens zeer terughoudend mee worden omgegaan. Het is altijd het stokpaardje geweest van partijen die graag data zelf inladen en er allerlei mooie functionaliteit op maken. De datawarehouse fans (de dataschuivers). Volgens mij moeten we juist weg van deze richting bewegen en maar naar data bij de bron. Theoretisch snap ik dat deze paragraaf er is, maar de duiding zou wat mij betreft moeten zijn dan dit niet nodig zou moeten zijn, of zoveel mogelijk voorkomen zou moeten worden. Het is een bedreiging voor het behouden van betekenis, voor actualiteit, voor datakwaliteit in de keten (want correcties/foutherstel in de bron bereiken de kopieën in de keten niet of niet goed of laat of alleen door complexe handelingen. Kortom, ik mis een verhaal bij deze paragraaf.
+MEt afgeleide opslag hoort mijn inziens zeer terughoudend mee worden omgegaan. Het is altijd het stokpaardje geweest van partijen die graag data zelf inladen en er allerlei mooie functionaliteit op maken. De datawarehouse fans (de dataschuivers). Volgens mij moeten we juist weg van deze richting bewegen en maar naar data bij de bron. Theoretisch snap ik dat deze paragraaf er is, maar de duiding zou wat mij betreft moeten zijn dan dit niet nodig zou moeten zijn, of zoveel mogelijk voorkomen zou moeten worden. Het is een bedreiging voor het behouden van betekenis, voor actualiteit, voor datakwaliteit in de keten (want correcties/foutherstel in de bron bereiken de kopieën in de keten niet of niet goed of laat of alleen door complexe handelingen. Kortom, ik mis een verhaal bij deze paragraaf.
 
-	Opmerking: ik mis hier een principe of uitgangspunt. Eerst een woord vooraf: ik zou het verschrikkelijk vinden, om allerlei redenen, als de SOR fysiek in 1 nieuwe registratie geïmplementeerd worden (kapitaalvernietiging, niet te beheren). Er is 1 ding waar ik bang voor ben, en dat is een monolithische uitwerking van de SOR. Niet dat dit zo wordt bedacht, maar ik lees ook nergens dat een monoliet expliciet buiten scope is als alternatief. De redenen hiervoor: 
-	- Enorme kapitaalvernietiging van wat er door de jaren heen gemaakt is.
-	- De trend tegenwoordig en een oplossing die wendbaarheid biedt, is toch echt: maak kleine losely coupled componenten die apart van elkaar aangepast kunnen worden. Dus eerder meer kleinere basisregistraties dan minder, eerder meer informatiemodellen (of losjes gekoppelde onderdelen in een groter ding die de samenhang bewaakt) dan minder enz. 
-	- Dat gegevensmodellen makkelijk aan te passen zijn en dat informatie meegroeit met de behoefte en in samenhang bruikbaar is, dan juist is het nodig om met dynamiek om te kunnen gaan. Een monoliet past daar uitermate slecht bij.
+Opmerking: ik mis hier een principe of uitgangspunt. Eerst een woord vooraf: ik zou het verschrikkelijk vinden, om allerlei redenen, als de SOR fysiek in 1 nieuwe registratie geïmplementeerd worden (kapitaalvernietiging, niet te beheren). Er is 1 ding waar ik bang voor ben, en dat is een monolithische uitwerking van de SOR. Niet dat dit zo wordt bedacht, maar ik lees ook nergens dat een monoliet expliciet buiten scope is als alternatief. De redenen hiervoor: 
+- Enorme kapitaalvernietiging van wat er door de jaren heen gemaakt is.
+- De trend tegenwoordig en een oplossing die wendbaarheid biedt, is toch echt: maak kleine losely coupled componenten die apart van elkaar aangepast kunnen worden. Dus eerder meer kleinere basisregistraties dan minder, eerder meer informatiemodellen (of losjes gekoppelde onderdelen in een groter ding die de samenhang bewaakt) dan minder enz. 
+- Dat gegevensmodellen makkelijk aan te passen zijn en dat informatie meegroeit met de behoefte en in samenhang bruikbaar is, dan juist is het nodig om met dynamiek om te kunnen gaan. Een monoliet past daar uitermate slecht bij.
 
-	Een monoliet - 1 registratie component - lost de problemen en uitdagingen niet op. Alles in 1 component stoppen maakt het er mijn inziens complexer op, en niet eenvoudiger.
+Een monoliet - 1 registratie component - lost de problemen en uitdagingen niet op. Alles in 1 component stoppen maakt het er mijn inziens complexer op, en niet eenvoudiger.
 
-	Uitgangspunt moet daarom wat mij betreft zijn: relatief kleine, goed beheerderbare, goed aanpasbare losse componenten, en niet e.e.a. samenbrengen naar 1 component. 
+Uitgangspunt moet daarom wat mij betreft zijn: relatief kleine, goed beheerderbare, goed aanpasbare losse componenten, en niet e.e.a. samenbrengen naar 1 component. 
 
-	Verder zou ik een principe willen zien dat samenhang niet is: samenbrengen in 1 component, maar samenhang aanbrengen, over componenten heen. Samenhang is een concept die ik meer zie als: in samenhang inwinnen, in samenhang gebruiken 
+Verder zou ik een principe willen zien dat samenhang niet is: samenbrengen in 1 component, maar samenhang aanbrengen, over componenten heen. Samenhang is een concept die ik meer zie als: in samenhang inwinnen, in samenhang gebruiken 
 
-	(en dus niet: samenbrengen in 1 grote IT component. Dat zou voor mij de bietenbrug zijn… goed, ik weet niet waar het heen beweegt, maar ik krijg wel soms wat monolithische zinnen voor ogen. Wellicht door de ‘bang voor’ bril ingegeven).
+(en dus niet: samenbrengen in 1 grote IT component. Dat zou voor mij de bietenbrug zijn… goed, ik weet niet waar het heen beweegt, maar ik krijg wel soms wat monolithische zinnen voor ogen. Wellicht door de ‘bang voor’ bril ingegeven).
 
-	Als ik dan kijk naar de paragraaf afgeleide opslag (deze paragaaf) en registatie (de volgende paragraaf), dan lees ik nergens dat een monoliet uitgesloten wordt. De crux zit 'm in: hoe laat je de registatie componenten zodanig acteren dat deze fijn data ontsluiten voor gebruik. Dat is echt DE design uitdaging voor de SOR. 
+Als ik dan kijk naar de paragraaf afgeleide opslag (deze paragaaf) en registatie (de volgende paragraaf), dan lees ik nergens dat een monoliet uitgesloten wordt. De crux zit 'm in: hoe laat je de registatie componenten zodanig acteren dat deze fijn data ontsluiten voor gebruik. Dat is echt DE design uitdaging voor de SOR. 
 	
 5.2.1 Registratie
 De component Registratie heeft als doel om bronhouderorganisaties en gemachtigde organisaties in staat te stellen objectgegevens en bijbehorende meta-gegevens te beheren (toevoegen en wijzigen). Deze component biedt de services die bronhouders en gemachtigden daarvoor nodig hebben.
