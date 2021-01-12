@@ -19,7 +19,13 @@ Uitbesteding van bouw op basis van voorliggend document leidt hoogstwaarschijnli
 
 ### Doel en doelgroep
 
-Deze architectuurbeschrijving moet het mogelijk maken om  keuzes te maken voor de verdere inrichting van de ICT-voorzieningen (componenten, applicaties of systemen) voor de Samenhangende Objectenregistratie. Ook moet de architectuurbeschrijving het mogelijk maken om de transitiestrategie te bepalen voor de overgang van de huidige voorzieningen van o.a. de BAG, BGT en BRT naar de ICT-componenten voor de Objectenregistratie. Tot slot moet de architectuurbeschrijving het mogelijk maken om de technische en organisatorische inrichting voor de ICT-voorzieningen voor de Objectenregistratie te bepalen. De onderscheiden functies (capabilities, "wat moet kunnen") binnen het systeem worden zodanig beschreven dat een opdracht om deze verder uit te werken inhoudelijk voldoende duidelijk is voor opdrachtgever en opdrachtnemer.
+Deze architectuurbeschrijving moet het mogelijk maken om  keuzes te maken voor de verdere inrichting van de ICT-voorzieningen (componenten, applicaties of systemen) voor de Samenhangende Objectenregistratie. Ook moet de architectuurbeschrijving het mogelijk maken om de transitiestrategie te bepalen voor de overgang van de huidige voorzieningen van o.a. de BAG, BGT en BRT naar de ICT-componenten voor de Objectenregistratie. Tot slot moet de architectuurbeschrijving het mogelijk maken om de technische en organisatorische inrichting voor de ICT-voorzieningen voor de Objectenregistratie te bepalen. 
+
+<p style="color:blue">
+Opm. Piet Bijzonder dat op basis van de applicatielaag de organisatorische inrichting voor de ICT voorzieningen bepaald wordt.
+</p>
+
+De onderscheiden functies (capabilities, "wat moet kunnen") binnen het systeem worden zodanig beschreven dat een opdracht om deze verder uit te werken inhoudelijk voldoende duidelijk is voor opdrachtgever en opdrachtnemer.
 
 De architectuurbeschrijving geeft richting aan de nadere inrichting van de ICT-componenten voor de Objectenregistratie en is daarom met name bedoeld voor degenen die betrokken zijn bij die inrichting. Daarnaast is de Architectuurbeschrijving van belang voor de afstemming over de inrichting van de ICT-voorzieningen voor de Objectenregistratie met alle belanghebbenden: beleidsverantwoordelijke(n), bronhouders, verstrekker(s), afnemers, beheerders en (software-)leveranciers en andere belanghebbenden.
 
