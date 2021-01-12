@@ -281,7 +281,8 @@ met andere woorden een intern gerichte functie. We beschrijven daarom hier
 vooral de vereisten aan de afgeleide opslag waar de invulling ervan aan moet
 voldoen. 
 
-	Opmerking Lennart: 
+	<p style="color:blue">
+    Opmerking Lennart: 
 
 	MEt afgeleide opslag hoort mijn inziens zeer terughoudend mee worden omgegaan. Het is altijd het stokpaardje geweest van partijen die graag data zelf inladen en er allerlei mooie functionaliteit op maken. De datawarehouse fans (de dataschuivers). Volgens mij moeten we juist weg van deze richting bewegen en maar naar data bij de bron. Theoretisch snap ik dat deze paragraaf er is, maar de duiding zou wat mij betreft moeten zijn dan dit niet nodig zou moeten zijn, of zoveel mogelijk voorkomen zou moeten worden. Het is een bedreiging voor het behouden van betekenis, voor actualiteit, voor datakwaliteit in de keten (want correcties/foutherstel in de bron bereiken de kopieën in de keten niet of niet goed of laat of alleen door complexe handelingen. Kortom, ik mis een verhaal bij deze paragraaf.
 
@@ -302,6 +303,7 @@ voldoen.
 	
 5.2.1 Registratie
 De component Registratie heeft als doel om bronhouderorganisaties en gemachtigde organisaties in staat te stellen objectgegevens en bijbehorende meta-gegevens te beheren (toevoegen en wijzigen). Deze component biedt de services die bronhouders en gemachtigden daarvoor nodig hebben.
+</p>
 
 **Uitgangspunten**
 

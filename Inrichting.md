@@ -28,11 +28,13 @@ De functies in de drie lagen voor Inzicht, Uitvoering en Ondersteuning maken we 
     <figcaption>De capabilities op de lagen Inzicht en Uitvoering en Ondersteuning</figcaption>
 </figure>
 
+    <p style="color:blue">
     Opmerking Lennart: Registreren lijkt ontkoppelt van ontsluiten/verstrekken. Ik denk dat dit "oud" denken is. Als je de keten kantelt, en data-gedreven werkt, dan is er "maar 1 database", waar alle processen in samenhang op werken. De inwinnende partij is verantwoordelijk voor de correctheid van de data, die verstrekt wordt - en wordt geacht zelf die data op orde te maken. Dan ligt de correctheid van de data ook bij de juiste partij, de partij met kennis, en die partij is zich bewust/sensitief van hoe de data gebruikt wordt. Kortom: inwinnen voor gebruik. 
     
     Nou kan je best er een aparte database van maken, bv. een real-time replica, desnoods een aparte database met deels een apart technisch datamodel, maar niet een apart informatiemodel. De informatie moet in de keten gelijk zijn, met dezelfde betekenis en ontsloten zodra dit kan. Ook mbt wanneer dit kan, beschikt alleen de inwinnende partij (over het algemeen) over de juiste kennis om dit in te schatten/te bepalen. Als je dus aparte technische datamodellen maakt, hou het informatiemodel deel dan 1 op 1 hetzelfde (!, dan kan dit wel, maar met behoud van consistentie). 
     
     Ik doel hier overigens nadrukkelijk niet op informatieproducten, of informatie op maat. Die onderwerpen zitten in een verlengstuk op de bron. Ik heb het uitdrukkelijk over de data in de bron. Zeg maar, de informatie waarmee de informatieproducten het moeten doen. Immers, alleen deze informatie uit de bron is er, er is verder niks (ook al wil je meer, er is niet meer, ook al wil je informatie met een andere betekenis, die is er niet, want het is niet zo ingewonnen).
+    </p>
 
 
 ### Functies in de laag Inzicht
@@ -45,6 +47,7 @@ Op de laag **Inzicht** onderkennen we de volgende clusters voor inzien van de ge
  - *Dienstencatalogus:* voor het beschrijven van de diensten van de objectenregistratie en om deze beschrijvingen (interactief) te ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
 
 
+    <p style="color:blue">
     Opmerking Lennart: 
 
     Helemaal top natuurlijk zo'n gegevenscatalogus.
@@ -67,6 +70,7 @@ https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#typen-informatiemodellen
     - De data/gegevens worden vaak wel in een 'informatie op maat' informatieproduct verder getuned. Dat is nuttig en belangrijk. Je hebt hier de vrijheid nodig om los te komen van het conceptuele informatiemodel, maar wel op een traceerbare wijze en met behoud van betekenis.
 
     Ik verwacht hier nog een inrichtingsprincipe: alle informatie die geleverd wordt, is qua betekenis conform het informatiemodel. Ofwel omdat de informatie 1 op 1 wordt geleverd, ofwel omdat informatie meer op maat wordt geleverd, maar dan is de betekenis traceerbaar naar het informatiemodel.
+    </p>
 
 
 ### Functies in de laag Uitvoering
@@ -81,10 +85,12 @@ Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname
 
 De component Terugmelding heeft als doel dat meldingen van afnemers over de juistheid van gegevens geregistreerd kunnen worden en beschikbaar zijn voor bronhouders, zodat zij ze kunnen behandelen
 
+    <p style="color:blue">
     Opmerking Lennart: 
     Registreren lijkt ontkoppelt van ontsluiten/verstrekken. Ik denk dat dit "oud" denken is. Als je de keten kantelt, en data-gedreven werkt, dan is er "maar 1 database", waar alle processen in samenhang op werken. De inwinnende partij is verantwoordelijk voor de correctheid van de data, die verstrekt wordt - en wordt geacht zelf die data op orde te maken. Dan ligt de correctheid van de data ook bij de juiste partij, de partij met kennis, en die partij is zich bewust/sensitief van hoe de data gebruikt wordt. Kortom: inwinnen voor gebruik. Nou kan je best er een aparte (real-time replica t.b.v. load-spreiding) database van maken, maar niet een apart informatiemodel. De informatie moet in de keten gelijk zijn, met dezelfde betekenis en ontsloten zodra dit kan. Ook mbt wanneer dit kan, beschikt alleen de inwinnende partij (over het algemeen) over de juiste kennis om dit in te schatten/te bepalen.
     
     Ik doel hier met informatiemodel overigens nadrukkelijk niet op informatieproducten, noch op informatie op maat. Deze laatste onderwerpen zitten in een verlengstuk op de bron. Ik heb het uitdrukkelijk over de data in de bron en 1 op 1 afname vanuit deze bron via de algemene data-services. Zeg maar, de informatie waarmee de informatieproducten het moeten doen. Immers, alleen deze informatie uit de bron is er, er is verder niks (ook al wil je meer, er is niet meer, ook al wil je informatie met een andere betekenis, die is er niet, want het is niet zo ingewonnen).
+    </p>
 
 
 ### Functies in de laag Ondersteuning
