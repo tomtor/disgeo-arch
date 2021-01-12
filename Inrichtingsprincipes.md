@@ -10,7 +10,7 @@ De [Beleidsvisie Samenhangende Objectenregistratie](https://www.geobasisregistra
 
 De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn afgeleid uit beide bovenstaande documenten.
 
-**Vanuit Architectuurvisie DiS-Geo**
+**Vanuit Houtskoolschets Architectuurvisie DiS-Geo**
  1. Bronhouders zijn verantwoordelijk voor basisgegevens
  2. Bronhouders kunnen leveranciers machtigen
  3. Gegevens aanpassen kan makkelijk en goed
