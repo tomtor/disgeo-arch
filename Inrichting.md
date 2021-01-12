@@ -45,6 +45,30 @@ Op de laag **Inzicht** onderkennen we de volgende clusters voor inzien van de ge
  - *Dienstencatalogus:* voor het beschrijven van de diensten van de objectenregistratie en om deze beschrijvingen (interactief) te ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
 
 
+    Opmerking Lennart: 
+
+    Helemaal top natuurlijk zo'n gegevenscatalogus.
+
+    Maar als ik me niet vergis kent een basisregistratie ook een semantische laag, waarin de semantiek beschreven is in gewone mensentaal, nog zonder dat er een catalogus is gemaakt van de gegevens/informatie zelf. De positionering daarvan lijkt me van belang om toe te voegen. Als aanvulling op wat er al staat (de quote hierboven).
+
+    Wat dit betreft: ik ben er 100% voor om een informatiemodel te gebruiken als datgene waar de informatie in het stelsel zich aan conformeert. Immers, dat is het model van informatie (data/gegevens). Het model van de verdere semantiek is belangrijk en leuk, maar dat is niet informatie die wordt uitgewisseld. Dus inderdaad, het gegevensmodel moet centraal staan. Overigens noemen we die: informatiemodel in o.a. NEN3610. Zie ook MIM paragraaf 1.5 voor de betekenis van wat er onder een begrippen model en een informatiemodel wordt verstaan.
+https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#typen-informatiemodellen
+
+    Merk op, er zijn wel eens mensen die informatiemodel definiëren als: de interne structuur in de database (MIM niveau 4), Dat bedoel ik expliciet niet. Ik doel op MIM niveau 2. 
+    
+    Waarom is het terecht om applicaties op het conceptuele informatiemodel te baseren:
+
+    - De informatie is conform deze betekenis ingewonnen. Niet met een andere betekenis. Alle andere betekenissen zijn per definitie onduidelijk, want het is niet met die betekenis ingewonnen.
+
+    - Standaardisatie en hergebruik en consistentie over 10-tallen API's heen begint met een gestandaardiseerde informatiestructuur. Al dan niet als onderlaag, die vertaalt wordt naar informatie op maat.
+
+    - De data/gegevens conformeren zich niet aan het veel vrijere begrippenmodel, maar aan het informatiemodel.
+
+    - De data/gegevens worden vaak wel in een 'informatie op maat' informatieproduct verder getuned. Dat is nuttig en belangrijk. Je hebt hier de vrijheid nodig om los te komen van het conceptuele informatiemodel, maar wel op een traceerbare wijze en met behoud van betekenis.
+
+    Ik verwacht hier nog een inrichtingsprincipe: alle informatie die geleverd wordt, is qua betekenis conform het informatiemodel. Ofwel omdat de informatie 1 op 1 wordt geleverd, ofwel omdat informatie meer op maat wordt geleverd, maar dan is de betekenis traceerbaar naar het informatiemodel.
+
+
 ### Functies in de laag Uitvoering
 
 Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname van objectgegevens*:
