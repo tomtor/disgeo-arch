@@ -22,6 +22,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
  6. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
  7. In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan.
  
+  <p style="color:blue">
   Opmerking Lennart:
  
   Hier lijkt te staan, althans zo lees ik het: vastleggen en opvragen zit in een aparte database. Dat is althans ooit een principe geweest: scheiding tussen registreren en verstrekken. Maar die scheiding leidde ertoe dat er aparte datamodellen ontstonden voor inwinnen en aparte voor opvragen/verstrekken. Met issues/uitval, vertalingen en actualiteit verschillen tot gevolg. Ik vermoed dat de intentie is: inwinnen kent een eigen dynamiek (veel controles, in stappen inwinnen), die anders is dan de dynamiek bij verstrekken (informatie op maat/informatie producten, gehele objecten uitleveren).
@@ -45,6 +46,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
   In het ontwerp van een samenhangende objectenregistratie is er op procesniveau sprake van een nadrukkelijke scheiding tussen de inwinningsprocessen en de functionaliteit voor het bewerken, opvragen en presenteren daarvan, maar op het informatie/dataniveau is juist geen scheiding. Op data niveau is er sprake van dezelfde definities, uniformiteit en actualiteit.
 
  In 4.2 figuur 6 en 5.2.3.1 Afgeleide opslag komt dit ook weer terug. Zie opmerkingen aldaar. 
+ <p>
 
  
  8. Er wordt gebruik gemaakt van standaard infrastructurele voorzieningen die beschikbaar zijn bij de bronhouders en de gebruikers (denk hierbij aan standaardnetwerken, netwerkprotocollen en beveiligingsmechanismen).
