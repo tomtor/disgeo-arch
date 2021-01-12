@@ -1,6 +1,5 @@
 ## Inleiding
 
-
 Het stelsel van basisregistraties is in Nederland een belangrijke grondlegger voor de informatiehuishouding van de (digitale) overheid. Binnen dit stelsel is een belangrijke plek weggelegd voor de geo- basisregistraties, die informatie bevatten met een locatiecomponent. Meer samenhang tussen deze registraties is gewenst om efficiënte inwinning en bijhouding en integraal gebruik mogelijk te maken. Om een integrale doorontwikkeling mogelijk te maken is het Ministerie van BZK de Doorontwikkeling in Samenhang van de geo(basis)registraties (DiS Geo) gestart. Een belangrijke eerste stap daarbinnen is de totstandbrenging van een samenhangende objectenregistratie.
 
 Een samenhangende objectenregistratie is een uniforme registratie met daarin basisgegevens over objecten in de fysieke werkelijkheid die zich voor gebruikers als één registratie gedraagt. Daaronder verstaan we objecten die in het terrein zichtbaar zijn, zoals gebouwen, wegen, water, spoorlijnen en bomen, terreindelen, aangevuld met enkele (administratieve) objecten als woonplaatsen, gemeentegrenzen en openbare ruimten.
@@ -11,6 +10,12 @@ Dit document is de **Architectuurbeschrijving Voorzieningen** van de Samenhangen
     <img src="media/scope-in-nora5laagsmodel.png" alt="scope in nora5laagsmodel">
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
 </figure>
+
+<p style="color:blue">
+Opm Piet. Het document geeft behalve een opdeling in componenten maar heel weinig richting. Alles blijft heel globaal en nog weinig specifiek.
+Het is natuurlijk de vraag of het nodig is om heel specifiek te worden. Dat is wellicht niet nodig mits de uitvoering in handen wordt gegeven van een organisatie die reeds meerdere BR’s met alle bijbehorende functionaliteit heeft gebouwd en deze beheert. In principe zou de BR SOR ingebouwd moeten worden in een bestaande omgeving om te voorkomen dat helemaal opnieuw wordt begonnen met allerlei voorzieningen die al lang bestaan.
+Uitbesteding van bouw op basis van voorliggend document leidt hoogstwaarschijnlijk tot hoge kosten en veel rework achteraf.
+</p>
 
 ### Doel en doelgroep
 
