@@ -12,7 +12,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
 
 **Vanuit Houtskoolschets Architectuurvisie DiS-Geo**
  1. Bronhouders zijn verantwoordelijk voor basisgegevens
- 2. Bronhouders kunnen leveranciers machtigen
+ 2. Bronhouders kunnen leveranciers machtig (ML opm) en
  3. Gegevens aanpassen kan makkelijk en goed
  4. Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
  5. De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
