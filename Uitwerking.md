@@ -28,7 +28,7 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvo
     <figcaption>De capabilities op de laag Uitvoering</figcaption>
 </figure>
 
-De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
+De laag **Uitvoering** (opm. ML) bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Registratie
