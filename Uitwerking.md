@@ -125,7 +125,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   De opslag-component is een intern onderdeel dat alleen via services
     is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
     hanteren. De technische wijze van opslag is verantwoordelijkheid van de
-    uitvoeringspartij die dit invult.
+    uitvoeringspartij die dit invult. (Opm ML) 
 
 **Vereisten**
 
