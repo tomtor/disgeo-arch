@@ -17,6 +17,9 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
  4. Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
  5. De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
 
+<p style="color:blue">
+De architectuurvisie Dis Geo bevat 10 principes waar dit document er maar 5 noemt. Onduidelijk wat hiervan de motivatie is. Vanuit mijn perceptie zijn de weggelaten principes relevant voor de architectuur beschrijving. Met name omdat een aantal de rol van "eenieder" beschrijft. En daarmee een belangrijke leidraad voor de doelstelling die de voorzieningen tot stand moeten brengen.
+</p>
 
 **Vanuit Beleidsvisie Samenhangende Objectenregistratie**
  6. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
@@ -24,7 +27,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
  
 <p style="color:blue">
 Opmerking Lennart:
- 
+
 Hier lijkt te staan, althans zo lees ik het: vastleggen en opvragen zit in een aparte database. Dat is althans ooit een principe geweest: scheiding tussen registreren en verstrekken. Maar die scheiding leidde ertoe dat er aparte datamodellen ontstonden voor inwinnen en aparte voor opvragen/verstrekken. Met issues/uitval, vertalingen en actualiteit verschillen tot gevolg. Ik vermoed dat de intentie is: inwinnen kent een eigen dynamiek (veel controles, in stappen inwinnen), die anders is dan de dynamiek bij verstrekken (informatie op maat/informatie producten, gehele objecten uitleveren).
 
 De uitdaging is volgens mij tweeledig:
