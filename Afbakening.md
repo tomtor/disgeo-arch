@@ -4,6 +4,10 @@ Dit hoofdstuk beschrijft de afbakening en context van de ICT-voorzieningen voor 
 
 ### Doel van de Objectenregistratie (Opm ML)
 
+<p style="color:blue">
+Fijn dat hier het doel van de samenhangende object registratie wordt genoemd. Persoonlijk vind ik ze nog niet echt business like, en erg informatie gericht. Waarom willen we een "samenhangende gegevenset"? De "zodat" ontbreekt. Wat verder vaak wordt vergeten is om uitwerking van architectuur en verder doorontwikkeling te relateren aan die doelstellingen. Dat gebeurt in dit document ook niet. Daarmee loop je de kans je niet langer te gaan richten op die doelstelling maar op uitgangspunten en principes. Ik zou de keuzes in het document ook willen relateren aan deze doelen.
+</p>
+
 Voor de Architectuurbeschrijving van de ICT-voorzieningen voor de Objectenregistratie is het goed het doel van de registratie te kennen. In de [beleidsvisie voor de samenhangende objectenregistratie](https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie) is een vijftal doelstellingen geformuleerd:
 
 1. Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;
