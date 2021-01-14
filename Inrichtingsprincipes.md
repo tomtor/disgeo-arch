@@ -102,6 +102,10 @@ Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
  
 **Inrichtingsprincipe 4: Data wordt op betrouwbare en veilige wijze beheert/ontsloten (Mickel)**, *zodat* aangetoond kan worden dat data niet bedoeld of onbedoeld gemanipuleerd is. (Opm. ML) Om op data te kunnen vertrouwen zorgen functies ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. Data wijzigt daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging wordt vastgelegd. Integriteit en consistentie van data wordt bewaakt. Data wordt bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
 
+<p style="color:blue">
+Ieder project creëert soms zijn eigen taal en termen. Wat is een "mutatieverwijzing". Voor google alleen bekend in context van SOR :-) Daar is vast iets anders voor de verzinnen. Zelf heb ik ook écht geen beeld wat hier wordt bedoeld, anders dan "wijzigingen die niet op basis van een brondocument plaatsvinden". Bij de BRK creëren we dan een "Kadasterstuk" als alternatief.
+</p>
+
 Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 
 **Inrichtingsprincipe 5: Samenhangend gebruik van data is makkelijk mogelijk**, zodat data uit verschillende gegevensverzamelingen te combineren is. Het is mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd. Dit principe heeft de volgende onderliggende principes in zich:
