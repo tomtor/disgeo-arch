@@ -405,11 +405,6 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Geen externe afhankelijkheden
 
-Afhankelijk van de ontwikkelingen van overheidsbrede afspraken en voorzieningen
-met betrekking tot notificeren en abonneren ontstaan er mogelijk in de toekomst
-afhankelijkheden naar gemeenschappelijke voorzieningen hiervoor, vergelijkbaar
-met de bestaande voorziening Digilevering.
-
 #### Terugmelding
 
 De component Terugmelding heeft als doel dat meldingen van afnemers over de
