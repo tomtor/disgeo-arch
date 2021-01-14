@@ -28,7 +28,7 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvo
     <figcaption>De capabilities op de laag Uitvoering</figcaption>
 </figure>
 
-De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
+De laag **Uitvoering** (opm. ML) bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Registratie
@@ -125,7 +125,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   De opslag-component is een intern onderdeel dat alleen via services
     is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
     hanteren. De technische wijze van opslag is verantwoordelijkheid van de
-    uitvoeringspartij die dit invult.
+    uitvoeringspartij die dit invult. (Opm ML) 
 
 **Vereisten**
 
@@ -404,11 +404,6 @@ Voor deze component gelden de volgende vereisten:
 Deze component heeft de volgende externe afhankelijkheden:
 
 -   Geen externe afhankelijkheden
-
-Afhankelijk van de ontwikkelingen van overheidsbrede afspraken en voorzieningen
-met betrekking tot notificeren en abonneren ontstaan er mogelijk in de toekomst
-afhankelijkheden naar gemeenschappelijke voorzieningen hiervoor, vergelijkbaar
-met de bestaande voorziening Digilevering.
 
 #### Terugmelding
 

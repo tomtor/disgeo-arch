@@ -12,7 +12,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
 
 **Vanuit Houtskoolschets Architectuurvisie DiS-Geo**
  1. Bronhouders zijn verantwoordelijk voor basisgegevens
- 2. Bronhouders kunnen leveranciers machtigen
+ 2. Bronhouders kunnen leveranciers machtig (ML opm) en
  3. Gegevens aanpassen kan makkelijk en goed
  4. Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
  5. De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
@@ -93,7 +93,7 @@ Grondslag: Uitgangspunten (9, 10, 14), GGL / Common Ground (04)
 Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
 
  
-**Inrichtingsprincipe 4: Data wordt op betrouwbare en veilige wijze ontsloten**, *zodat* aangetoond kan worden dat data niet bedoeld of onbedoeld gemanipuleerd is. Om op data te kunnen vertrouwen zorgen functies ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. Data wijzigt daarom alleen op basis van een brondocument of mutatieverwijzing (opm. ML) en de wijziging wordt vastgelegd. Integriteit en consistentie van data wordt bewaakt. Data wordt bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
+**Inrichtingsprincipe 4: Data wordt op betrouwbare en veilige wijze beheert/ontsloten (Mickel)**, *zodat* aangetoond kan worden dat data niet bedoeld of onbedoeld gemanipuleerd is. (Opm. ML) Om op data te kunnen vertrouwen zorgen functies ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. Data wijzigt daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging wordt vastgelegd. Integriteit en consistentie van data wordt bewaakt. Data wordt bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
 
 Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 
