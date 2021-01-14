@@ -12,10 +12,14 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
 
 **Vanuit Houtskoolschets Architectuurvisie DiS-Geo**
  1. Bronhouders zijn verantwoordelijk voor basisgegevens
- 2. Bronhouders kunnen leveranciers machtig (ML opm) en
+ 2. Bronhouders kunnen leveranciers machtig (ML opm) en 
  3. Gegevens aanpassen kan makkelijk en goed
  4. Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
  5. De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
+
+<p style="color:blue">
+Mickel bij punt 2: De term leverancier is hier onduidelijk en verwarrend. Ook het brondocument geeft hier geen helderheid. Gaat het om het machtigen van leveranciers voor het aanleveren van informatie namens een bijvoorbeeld een gemeente vanuit hun software. Of het machtigen van derden om zelfstandig wijzigingen in de bronregistratie door te voeren. Bijvoorbeeld externe beheerders van de openbare ruimte? Volgens mij is het eerste geval buiten de scope van dit document en gaat dat over een technische oplossing voor het aanleveren van informatie via een infrastructuur van een derde.
+</p>
 
 <p style="color:blue">
 De architectuurvisie Dis Geo bevat 10 principes waar dit document er maar 5 noemt. Onduidelijk wat hiervan de motivatie is. Vanuit mijn perceptie zijn de weggelaten principes relevant voor de architectuur beschrijving. Met name omdat een aantal de rol van "eenieder" beschrijft. En daarmee een belangrijke leidraad voor de doelstelling die de voorzieningen tot stand moeten brengen.
