@@ -27,6 +27,10 @@ uitgewerkt.
 
 ### Laag Uitvoering
 
+<p style="color:blue">
+Mickel: Ik heb moeite met de term "uitvoering". "Verwerking" of "beheer" zou misschien beter passen. Uitvoering doet me denken aan de processen die gebruik maken van de voorzieningen in de buitenwereld. Die voeren uit.
+</p>
+
 Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvoering. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
 
 <figure id="functiesuitvoering">
