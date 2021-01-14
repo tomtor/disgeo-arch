@@ -15,6 +15,10 @@ Daaronder verstaan we objecten die in het terrein zichtbaar zijn, zoals gebouwen
 
 Dit document is de **Architectuurbeschrijving Voorzieningen** van de Samenhangende Objectenregistratie. Het beschrijft de afbakening, de inrichtingsprincipes en de conceptuele of functionele inrichting (de functionele onderdelen en samenhang) van de componenten voor de Samenhangende Objectenregistratie. Met andere woorden, de Architectuurbeschrijving Voorzieningen beschrijft de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
 
+<p style="color:blue">
+Mickel: In dit document wordt consequent gesproken over voorzieningen. Is het beeld hier dat net als bij het DSO er een voorzieningen stelsel wordt gemaakt waarbij verschillende componenten desnoods bij verschillende organisaties kunnen draaien en waar geen verantwoordelijkheid wordt genomen voor het proces omdat het proces buiten het stelsel is gepositioneerd en slechts gebruik maakt van de voorzieningen. Dit wordt niet duidelijk uit het document. Daarnaast wordt hier voor het eerst verwezen naar "ICT componenten" waar eerder slechts component werd gebruikt. Gezien de aard van het document vind ik "component" beter passen en zou ik ICT hier overal weglaten.
+</p>
+
 <figure id="scope in nora5laagsmodel">
     <img src="media/scope-in-nora5laagsmodel.png" alt="scope in nora5laagsmodel">
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
