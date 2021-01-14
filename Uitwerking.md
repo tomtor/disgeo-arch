@@ -143,6 +143,10 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
     hanteren. De technische wijze van opslag is verantwoordelijkheid van de
     uitvoeringspartij die dit invult. (Opm ML) 
+    
+<p style="color:blue">
+"Het is daarom niet nodig om hiervoor een standaard invulling te hanteren. De technische wijze van opslag is verantwoordelijkheid van de uitvoeringspartij die dit invult." Bij de WOZ hebben we veel "last" gehad van een eigen mechanisme voor de opslag. Het opslagmodel was daar "generiek" en leverde op een bepaald moment problemen op die alleen met heel veel investering konden worden opgelost. Ik weet niet of je dit zo hard moet neerzetten.
+</p>
 
 **Vereisten**
 
